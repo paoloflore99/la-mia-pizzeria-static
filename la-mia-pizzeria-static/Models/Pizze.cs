@@ -1,8 +1,9 @@
-﻿namespace la_mia_pizzeria_static.Models
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace la_mia_pizzeria_static.Models
 {
-    public class ListaPizze
-    {
-        public List<Pizze> PizzeList { get; set; } = new List<Pizze>();
+
+    
     public class Pizze
     {
         public string Nome { get; set; }
